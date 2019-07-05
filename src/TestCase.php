@@ -19,7 +19,7 @@ class TestCase extends PHPUnitTestCase
      */
     protected $loop;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->loop = LoopFactory::create();
     }
